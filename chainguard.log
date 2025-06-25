@@ -1,0 +1,118 @@
+2025-06-25 12:45:10,424 - ERROR - pip-audit failed for requests: usage: pip-audit [-h] [-V] [-l] [-r REQUIREMENT] [-f FORMAT] [-s SERVICE] [-d]
+                 [-S] [--desc [{on,off,auto}]] [--cache-dir CACHE_DIR]
+                 [--progress-spinner {on,off}] [--timeout TIMEOUT]
+                 [--path PATH] [-v] [--fix] [--require-hashes]
+                 [--index-url INDEX_URL] [--extra-index-url URL]
+                 [--skip-editable] [--no-deps] [-o FILE] [--ignore-vuln ID]
+                 [--disable-pip]
+                 [project_path]
+pip-audit: error: unrecognized arguments: --json
+
+2025-06-25 12:45:10,424 - ERROR - Error auditing package requests: Failed to audit package requests: usage: pip-audit [-h] [-V] [-l] [-r REQUIREMENT] [-f FORMAT] [-s SERVICE] [-d]
+                 [-S] [--desc [{on,off,auto}]] [--cache-dir CACHE_DIR]
+                 [--progress-spinner {on,off}] [--timeout TIMEOUT]
+                 [--path PATH] [-v] [--fix] [--require-hashes]
+                 [--index-url INDEX_URL] [--extra-index-url URL]
+                 [--skip-editable] [--no-deps] [-o FILE] [--ignore-vuln ID]
+                 [--disable-pip]
+                 [project_path]
+pip-audit: error: unrecognized arguments: --json
+
+2025-06-25 12:46:11,059 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 12:46:11,059 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 12:46:11,060 - INFO -  * Restarting with stat
+2025-06-25 12:46:11,288 - WARNING -  * Debugger is active!
+2025-06-25 12:46:11,297 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 12:46:54,090 - INFO - 127.0.0.1 - - [25/Jun/2025 12:46:54] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 12:47:00,961 - INFO - 127.0.0.1 - - [25/Jun/2025 12:47:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-06-25 12:49:37,756 - INFO -  * Detected change in '/workspaces/chainguard/tests/test_cli.py', reloading
+2025-06-25 12:49:37,791 - INFO -  * Restarting with stat
+2025-06-25 12:49:38,056 - WARNING -  * Debugger is active!
+2025-06-25 12:49:38,057 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 12:50:03,329 - INFO -  * Detected change in '/workspaces/chainguard/tests/test_tea_integration.py', reloading
+2025-06-25 12:50:03,392 - INFO -  * Restarting with stat
+2025-06-25 12:50:03,630 - WARNING -  * Debugger is active!
+2025-06-25 12:50:03,630 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 12:52:24,401 - INFO - 127.0.0.1 - - [25/Jun/2025 12:52:24] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 12:58:11,347 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 12:58:11,347 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 12:58:11,348 - INFO -  * Restarting with stat
+2025-06-25 12:58:11,570 - WARNING -  * Debugger is active!
+2025-06-25 12:58:11,570 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 12:58:17,089 - INFO - 127.0.0.1 - - [25/Jun/2025 12:58:17] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 12:59:57,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 12:59:57,637 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 12:59:57,638 - INFO -  * Restarting with stat
+2025-06-25 12:59:57,857 - WARNING -  * Debugger is active!
+2025-06-25 12:59:57,857 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 13:00:03,282 - INFO - 127.0.0.1 - - [25/Jun/2025 13:00:03] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 13:01:42,700 - INFO -  * Detected change in '/workspaces/chainguard/dashboard/app.py', reloading
+2025-06-25 13:01:42,737 - INFO -  * Restarting with stat
+2025-06-25 13:01:42,981 - WARNING -  * Debugger is active!
+2025-06-25 13:01:42,982 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 13:10:48,485 - INFO -  * Detected change in '/workspaces/chainguard/dashboard/app.py', reloading
+2025-06-25 13:10:48,544 - INFO -  * Restarting with stat
+2025-06-25 13:14:16,389 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 13:14:16,389 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 13:14:16,390 - INFO -  * Restarting with stat
+2025-06-25 13:14:16,620 - WARNING -  * Debugger is active!
+2025-06-25 13:14:16,621 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 13:14:21,534 - INFO - 127.0.0.1 - - [25/Jun/2025 13:14:21] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 13:15:36,642 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 13:15:36,642 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 13:15:36,643 - INFO -  * Restarting with stat
+2025-06-25 13:15:36,867 - WARNING -  * Debugger is active!
+2025-06-25 13:15:36,867 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 13:17:38,592 - INFO - 127.0.0.1 - - [25/Jun/2025 13:17:38] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 13:20:12,914 - INFO - 127.0.0.1 - - [25/Jun/2025 13:20:12] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 13:47:25,467 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 13:47:25,467 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 13:47:25,468 - INFO -  * Restarting with stat
+2025-06-25 13:47:25,726 - WARNING -  * Debugger is active!
+2025-06-25 13:47:25,726 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 13:52:50,918 - ERROR - pip-audit failed for requests: usage: pip-audit [-h] [-V] [-l] [-r REQUIREMENT] [-f FORMAT] [-s SERVICE] [-d]
+                 [-S] [--desc [{on,off,auto}]] [--cache-dir CACHE_DIR]
+                 [--progress-spinner {on,off}] [--timeout TIMEOUT]
+                 [--path PATH] [-v] [--fix] [--require-hashes]
+                 [--index-url INDEX_URL] [--extra-index-url URL]
+                 [--skip-editable] [--no-deps] [-o FILE] [--ignore-vuln ID]
+                 [--disable-pip]
+                 [project_path]
+pip-audit: error: The --no-deps flag can only be used with --requirement (-r)
+
+2025-06-25 13:54:49,245 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 13:54:49,245 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 13:54:49,246 - INFO -  * Restarting with stat
+2025-06-25 13:54:49,524 - WARNING -  * Debugger is active!
+2025-06-25 13:54:49,524 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 13:55:07,886 - INFO - 127.0.0.1 - - [25/Jun/2025 13:55:07] "[33mGET / HTTP/1.1[0m" 404 -
+2025-06-25 13:59:32,674 - INFO -  * Detected change in '/workspaces/chainguard/chainguard/audit.py', reloading
+2025-06-25 13:59:32,714 - INFO -  * Restarting with stat
+2025-06-25 13:59:32,957 - WARNING -  * Debugger is active!
+2025-06-25 13:59:32,958 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 13:59:36,119 - INFO -  * Detected change in '/workspaces/chainguard/chainguard/audit.py', reloading
+2025-06-25 13:59:36,161 - INFO -  * Restarting with stat
+2025-06-25 13:59:51,842 - ERROR - pip-audit failed for requests: usage: pip-audit [-h] [-V] [-l] [-r REQUIREMENT] [-f FORMAT] [-s SERVICE] [-d]
+                 [-S] [--desc [{on,off,auto}]] [--cache-dir CACHE_DIR]
+                 [--progress-spinner {on,off}] [--timeout TIMEOUT]
+                 [--path PATH] [-v] [--fix] [--require-hashes]
+                 [--index-url INDEX_URL] [--extra-index-url URL]
+                 [--skip-editable] [--no-deps] [-o FILE] [--ignore-vuln ID]
+                 [--disable-pip]
+                 [project_path]
+pip-audit: error: The --no-deps flag can only be used with --requirement (-r)
+
+2025-06-25 14:02:17,878 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-06-25 14:02:17,878 - INFO - [33mPress CTRL+C to quit[0m
+2025-06-25 14:02:17,880 - INFO -  * Restarting with stat
+2025-06-25 14:02:18,105 - WARNING -  * Debugger is active!
+2025-06-25 14:02:18,106 - INFO -  * Debugger PIN: 771-562-508
+2025-06-25 14:07:30,062 - INFO - 127.0.0.1 - - [25/Jun/2025 14:07:30] "[33mGET / HTTP/1.1[0m" 404 -

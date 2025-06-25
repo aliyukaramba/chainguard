@@ -1,0 +1,20 @@
+project:
+  name: ChainGuard
+  description: A decentralized dependency auditing tool for OSS security
+  repository: https://github.com/aliyukaramba/chainguard
+  package_manager: pypi
+governance:
+  codeOwners:
+    - address: tea1x2y3z4
+      github: user1
+    - address: tea5a6b7c
+      github: user2
+  requiredVotes: 2
+  totalContributors: 2
+treasury:
+  address: tea_treasury_123
+  rewardDistribution: equal
+metadata:
+  version: 1.0.0
+  license: MIT
+  keywords: [security, dependencies, tea-protocol]

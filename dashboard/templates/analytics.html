@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ChainGuard Analytics</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.min.js" integrity="sha384-+BjNeW1F6z79Z0+oj+zFn0q4T0xZ91Y1H+kgzT7pG1sYenOJR8mT76V2q2uT4k0q" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dependency Graph for {{ package|default('Unknown Package') }}</h1>
+        <canvas id="depGraph"></canvas>
+    </div>
+    <script>
+        const dependencies = {{ dependencies|tojson|safe }};
+        const ctx = document.getElementById('depGraph').getContext('2d');
+        new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: dependencies || [],
+                datasets: [{
+                    label: 'Dependencies',
+                    data: dependencies ? Array(dependencies.length).fill(1) : [],
+                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56']
+                }]
+            },
+            options: {
+                responsive: true
+            }
+        });
+    </script>
+</body>
+</html>
